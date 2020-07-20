@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionGeneralActivity">
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="362dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/ic_biohazard" />
+
+    <ImageView
+    android:id="@+id/imageView10"
+    android:layout_width="49dp"
+    android:layout_height="53dp"
+    android:layout_marginStart="90dp"
+    android:layout_marginTop="22dp"
+    android:layout_marginEnd="272dp"
+    android:layout_marginBottom="430dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView8"
+    app:srcCompat="@drawable/ic_biohazard" />
+
+    <TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="49dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="663dp"
+    android:text="Bienvenido a la pagina informativa sobre Covid-19 en Chile"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+    android:id="@+id/textView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="75dp"
+    android:layout_marginTop="58dp"
+    android:layout_marginEnd="214dp"
+    android:layout_marginBottom="586dp"
+    android:text="Recomendaciones:"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+    android:id="@+id/imageView8"
+    android:layout_width="49dp"
+    android:layout_height="53dp"
+    android:layout_marginStart="90dp"
+    android:layout_marginTop="27dp"
+    android:layout_marginEnd="272dp"
+    android:layout_marginBottom="505dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView11"
+    app:srcCompat="@drawable/ic_biohazard" />
+
+    <TextView
+    android:id="@+id/textView12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="22dp"
+    android:layout_marginTop="43dp"
+    android:layout_marginEnd="190dp"
+    android:layout_marginBottom="523dp"
+    android:text="Use mascarilla"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toEndOf="@+id/imageView8"
+    app:layout_constraintTop_toBottomOf="@+id/textView11"
+    app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+    android:id="@+id/textView13"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="22dp"
+    android:layout_marginTop="56dp"
+    android:layout_marginEnd="89dp"
+    android:layout_marginBottom="448dp"
+    android:text="Evite lugares concurridos"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/imageView10"
+    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+    android:id="@+id/textView14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="25dp"
+    android:layout_marginTop="53dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="376dp"
+    android:text="Lávese constantemente las manos"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/imageView11"
+    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+    android:id="@+id/informacionGeneral"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="88dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginEnd="86dp"
+    android:layout_marginBottom="148dp"
+    android:clickable="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/imageView13"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView11"
+    app:srcCompat="@drawable/ic_coronavirus"
+    android:onClick="onClickGeneral"
+        />
+
+
+    <ImageView
+    android:id="@+id/imageView13"
+    android:layout_width="62dp"
+    android:layout_height="63dp"
+    android:layout_marginTop="165dp"
+    android:layout_marginEnd="111dp"
+    android:layout_marginBottom="150dp"
+        android:onClick="onClickDetallada"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView14"
+    app:layout_constraintVertical_bias="1.0"
+    app:srcCompat="@drawable/ic_country"
+        />
+
+    <TextView
+    android:id="@+id/textView15"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="204dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="66dp"
+    android:layout_marginBottom="101dp"
+    android:text="Informacion Detallada"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+    android:id="@+id/textView16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="54dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="101dp"
+    android:text="Informacion General"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/textView15"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/informacionGeneral"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
